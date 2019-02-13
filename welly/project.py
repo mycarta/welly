@@ -336,7 +336,7 @@ class Project(object):
                 else:
                     t = t.format('')
                 s += t
-                s += '<br /><span style="font-size:70%; color:#33AA33">{} {}</span></td>'
+                s += '<br /><span style="font-size:70%; color:#fde0ffS">{} {}</span></td>'
                 rows += s.format(*curve)
             rows += '</tr>'
 
